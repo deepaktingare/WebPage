@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="loginstylesheet" href="loginstyle.css"/> -->
+    <title>Login Page</title>
+   
+  <style>
+    .bg
+    {
+      background-image : url(back.jpg);
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;  /* if write a fixed so if you scroll web page back imag fixed not moved  */
+    }
+
+    .bg h1
+    {
+      text-align: center;
+      text-decoration: solid;
+      color: blanchedalmond;
+    }
+
+    form 
+    {  
+      background-color:darkkhaki;
+      top: 25%;
+      left: 30%;
+      align-items: center;
+      position: fixed;
+      width: 40%;
+      border: 0px solid hsla(213, 72%, 15%, 0.894);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+      /* Full-width inputs */
+    input[type=text], input[type=password] 
+    {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+     /* Set a style for all buttons */
+    button
+    {
+      background-color: hsla(213, 72%, 15%, 0.894);
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 50%;
+    }
+
+     /* Add a hover effect for buttons */
+    button:hover 
+    {
+      opacity: 0.8;
+    }
+      /* .avatar photo decoratrion */
+    .profile
+    {
+      display:circle;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+    } 
+    
+    .user
+    {
+      text-align: center;
+    }
+
+    .user input
+    {
+      text-align: center;
+      width: 30%;
+    }
+
+    .pass input
+    {
+      text-align: center;
+      width: 30%;
+    }
+    .logbutton button
+    {  
+      text-align: center;
+      width: 20%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .secblank
+    {
+      background-color: darkkhaki;
+      height: 20px;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .blank h5
+    {
+      text-align: center;
+      color: rgb(2, 2, 47);
+    }
+  </style>
+</head>
+<body>
+  <form action="createAcc.html" method="post">
+    <div class="bg"><h1> Login Hear</h1></div>
+    <div class="imgcontainer"><!-- <img src="" alt="Avatar" class="profile">  --></div>
+    
+    <div class="user" style="text-align: center;">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+    </div>
+
+    <div class="pass" style="text-align: center;">
+     <label for="psw"><b>Password</b></label>
+     <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <div class="logbutton">
+      <button type="submit">Login</button>
+    </div>
+          
+    <span class="psw">Forgot <a href="#">Password? </a></span>
+    <a href="createAcc.html">Create Account</a>
+
+    <div class="blank">
+      <h5>Note : First create account, if done forgate this message..!</h5>
+    </div>  
+    <div class="secblank">
+
+    </div>
+  </form> 
+</body>
+</html>
