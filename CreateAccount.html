@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+      form
+      {
+       background-color:darkkhaki;
+       top: 17%;
+       left: 30%;
+       align-items: center;
+       position: fixed;
+       width: 40%;
+       border: 0px solid hsla(213, 72%, 15%, 0.894);
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+      }
+      .bg
+      {
+       background-image : url(back.jpg);
+       width: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;  /* if write a fixed so if you scroll web page back imag fixed not moved  */
+      }
+      .bg h1
+      {
+       text-align: center;
+       text-decoration: solid;
+       color: blanchedalmond;
+      }
+      .bg h5
+       {
+        text-align: center;
+        text-decoration: solid;
+        color: blanchedalmond;
+       }
+
+      /* Full-width inputs */
+      input[type=text], input[type=password] 
+      {
+       width: 50%;
+       padding: 12px 20px;
+       margin: 8px 0;
+       display: inline-block;
+       border: 1px solid #ccc;
+       box-sizing: border-box;
+      }
+    
+      .email
+      {
+        text-align: center;
+      }
+
+      .user
+      {
+        text-align:center ;
+      }
+
+      .pass
+      {
+       text-align: center;
+      }
+ 
+      .cpass
+      {
+        text-align: center;
+      }
+
+      /* Set a style for all buttons */
+      button
+      {
+        background-color: hsla(213, 72%, 15%, 0.894);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 50%;
+      }
+
+/* Add a hover effect for buttons */
+      button:hover 
+      {
+       opacity: 0.8;
+      }
+
+      .subbutton button
+      {
+        text-align: center;
+        width: 20%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      .centerl a
+      {
+       text-align: center;
+      }
+      .centerfp a
+      {
+        text-align: center;
+      }
+      .link a
+      {
+        text-align: center;
+      }
+
+      .blank
+       {
+         background-color: darkkhaki;
+         height: 40px;
+         width: 100%;
+         border-bottom-left-radius: 10px;
+         border-bottom-right-radius: 10px;
+       }
+      .blank h5
+      {
+        text-align: center;
+        color: rgb(12, 5, 56);  
+      }
+      
+
+    </style>
+</head>
+<body>
+    <form action="LoginPage.html" method="post">
+      <div class="bg">
+        <h1>Create Account</h1>
+      </div>
+
+      <div class="email">
+        <label for="email"><b>Email   : </b></label>
+        <input type="text" placeholder="xyz@gmail.com" name="name" required>
+      </div>
+
+      <div class="user">
+        <label for="email"><b>Username  : </b></label>
+        <input type="text" placeholder="Deepak" name="username" required>
+      </div>
+
+      <div class="pass">
+        <label for="email"><b>Password  : </b></label>
+        <input type="text" placeholder="xyz@123" name="pass" required>
+      </div>
+
+      <div class="cpass">
+        <label for="email"><b> C Password : </b></label>
+        <input type="text" placeholder="confrom password" name="cpass" required>
+
+      <div class="subbutton" style="text-align: center;">
+        <button type="submit">Creat</button>
+      </div>
+        
+      <div class="link">
+        <a href="LoginPage.html">Login </a>
+        <a href="Forgate_Password.html">UpdatePassword</a>
+      </div>
+
+      <div class="blank">
+        <h5>Note : If have account already click on Login button 
+          <br> or If don't  remember password please click on update password...!
+        </h5>
+      </div>
+  </form>
+</body>
+</html> 
